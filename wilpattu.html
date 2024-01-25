@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilpattu National Park</title>
+    <link rel="stylesheet" href="wilpattu.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+            <div class="logo">Wildlife</div>
+            <div class="ham">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar"> 
+                <ul>
+                   <li><a class="active" href="index.html">Home</a></li>
+                   <li><a href="Intro.html">Introduction</a></li>
+                   <li><a href="wdl.html">Wildlife Department</a></li>
+                   <li><a href="lepords.html">Leopards</a></li>
+                   <li><a href="animal.html">Animals</a></li>
+               </ul>
+            </nav>
+    </header>
+    <script> 
+        hamburger = document.querySelector(".ham");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+     </script>
+    <main>
+        <section>
+            <div class="main_pic"><img src=""></div>
+        </section>
+        <nav class="inside-nav-bar">
+            <ul>
+                <li><a href="#1">About</a></li>
+                <li><a href="#3">Tours</a></li>
+                <li><a href="#4">Map</a></li>
+            </ul>
+        </nav>
+        <section id="1">
+            <div class="para">
+                <h1>Wilpattu Adventures</h1>
+                <p>Welcome to the lush wilderness of Wilpattu National Park (WNP). Ranging over 131 thousand hectares, it is Sri Lanka’s largest and one of the oldest protected areas. The park consists of five blocks declared between 1938-1973 under the Fauna and Flora Protection Ordinance and is managed by the Department of  Wildlife Conservation.
+                    <br><br>
+                    WNP spans across the Puttalam and Anuradhapura districts, and borders the Mannar and Vavuniya Districts. The area is one of the most important elephant habitats in the country and is also a great place to observe the elusive Sri Lankan leopard and the sloth bear.
+                    <br><br>
+                    This park has a denser forest cover unlike many other National Parks in Sri Lanka. WNPs landscape comprises of dry zone forests and thorny scrub interspersed with extensive open plains, sand dunes and the unique Villu wetlands. Bare reddish cliffs rising abruptly from narrow beaches of the Portugal Bay and Dutch Bay are another striking feature of its landscape.
+                    <br><br>
+                    WNP is in the proximity to the ancient historical city of Anuradhapura and houses several ancient ruins and artifacts from various periods of history.
+                </p>
+            </div>
+        </section>
+        <section id="2">
+            <div class="gallery_head">
+                <div class="gallery_container">
+                    <div class="item"><img src="w1.jpeg"></div>
+                    <div class="item"><img src="w2.webp"></div>
+                    <div class="item"><img src="w3.webp"></div>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="safari">
+                <h2>Safari Tour</h2>
+                <p>Wilpattu Megha Safari offers both half-day and full-day game drive packages for domestic and foreign visitors. The full-day game drive begins at 6 AM and concludes at 6 PM, providing an extensive wildlife experience. During the full-day adventure, breakfast and lunch are included, and the company can arrange these meals upon request.
+
+                    For those seeking a more condensed wildlife experience, the half-day safari drives are available either in the morning (6 AM to 10 AM) or the evening (3 PM to 6 PM). The tours offer the opportunity to observe a diverse range of wildlife, including Axis Deer, Sambar Deer, Jackals, various Mongoose species, and an abundance of birds.
+                    
+                    Wilpattu Megha Safari specializes in showcasing some of the country's most elusive wildlife, including the majestic Sri Lankan Leopard, elusive Sloth Bear, magnificent Elephants, and graceful Barking Deer. The guided tours provide an enthralling and informative exploration of Wilpattu National Park's rich biodiversity.</p>
+            </div>
+            <div class="yalasafariimg">
+                <img src="wsfari.jpg">
+                <img src="wsafari2.jpg" >
+            </div>
+        </section>
+        <section id="4">
+            <div class="map-container">
+                <div class="ymapheader">
+                    <h2>Map</h2>
+                </div>
+                <div class="ymap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252576.31067160054!2d79.87193661709829!3d8.450184972383983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afdac7787e4bc27%3A0xcdd9a0715dad187c!2sWilpattu%20National%20Park!5e0!3m2!1sen!2slk!4v1706174713360!5m2!1sen!2slk" width="1200" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Intro.html">Introduction</a></li>
+                        <li><a href="wdl.html">Wildlife Department</a></li>
+                        <li><a href="lepords.html">Lepords</a></li>
+                      <li><a href="animal.html">Animals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sub Pages</h4>
+                    <ul>
+                        <li><a href="yala.html">Yala National Park</a></li>
+                        <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>References</h4>
+                    <ul>
+                        <li><a href="https://www.pinterest.com/">Pintrest</a></li>
+                        <li><a href="https://www.wildagain.africa/">Wild Again Africa</a></li>
+                    </ul>
+                </div>
+        </div>
+   </footer>
+</body>
+</html>

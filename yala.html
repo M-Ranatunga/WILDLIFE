@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yala National Park</title>
+    <link rel="stylesheet" href="yala.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <div class="logo">Wildlife</div>
+        <div class="ham">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar"> 
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="Intro.html">Introduction</a></li>
+                <li><a href="wdl.html">Wildlife Department</a></li>
+                <li><a href="lepords.html">Leopards</a></li>
+                <li><a href="animal.html">Animals</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <script> 
+        hamburger = document.querySelector(".ham");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    <main>
+        <section>
+            <div class="main_pic"></div>
+        </section>
+        <nav class="inside-nav-bar">
+            <ul>
+                <li><a href="#1">About</a></li>
+                <li><a href="#3">Tours</a></li>
+                <li><a href="#4">Map</a></li>
+            </ul>
+        </nav>
+        <section id="1">
+            <div class="para">
+                <h2>Yala National Park</h2>
+                <p>Yala National Park (otherwise known as Ruhuna National Park) is one of Sri Lanka’s must-sees. Located to the south east of the island, this exceptional game reserve is Sri Lanka’s most popular for very good reason. Thought to be home to the greatest density of leopards per square kilometre in the world, Yala covers an area of 1,260 square kilometres and is divided into five blocks. Block I is the most visited portion of the reserve and the most rewarding destination for a leopard safari. Leopards are usually elusive, though in Yala, sightings of them are extremely good – you might see them basking in the sun atop rocky outcrops, in trees, crossing tracks and beside waterholes. Alongside leopards, there are also sloth bears, Asian elephants, deer, monkeys, buffalo and many species of birds. If you’re really set on seeing leopards, Yala will offer you Sri Lanka’s best opportunity.</p>
+            </div>
+        </section>
+        <section id="2">
+            <div class="gallery_head">
+                <div class="gallery_container">
+                    <div class="item"><img src="y1.jpeg"></div>
+                    <div class="item"><img src="y2.webp"></div>
+                    <div class="item"><img src="y3.jpg"></div>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="safari">
+                <h2>Safari Tour</h2>
+                <p>This affordable safari concentrates on the spotted predator, which may be found in one of the world's densest populations in Yala National Park. Your driver/guide will only seek for leopards during the hours of dawn and sunset; in between, search for sloth bears, elephants, crocodiles, monkeys, deer, and other wildlife.</p>
+            </div>
+            <div class="yalasafariimg">
+                <img src="ysafripic.jpeg">
+                <img src="ysafaripic2.jpg" >
+            </div>
+        </section>
+        <section id="4">
+            <div class="map-container">
+                <div class="ymapheader">
+                    <h2>Map</h2>
+                </div>
+                <div class="ymap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507466.0799131389!2d80.4703685538649!3d6.44809260723073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae5d3a62ffb9359%3A0x3bb623d70b5a3314!2sYala%20National%20Park!5e0!3m2!1sen!2slk!4v1706168741890!5m2!1sen!2slk" width="1200" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Intro.html">Introduction</a></li>
+                        <li><a href="wdl.html">Wildlife Department</a></li>
+                        <li><a href="lepords.html">Lepords</a></li>
+                        <li><a href="animal.html">Animals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sub Pages</h4>
+                    <ul>
+                        <li><a href="yala.html">Yala National Park</a></li>
+                        <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>References</h4>
+                    <ul>
+                        <li><a href="https://www.pinterest.com/">Pinterest</a></li>
+                        <li><a href="https://www.wildagain.africa/">Wild Again Africa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
